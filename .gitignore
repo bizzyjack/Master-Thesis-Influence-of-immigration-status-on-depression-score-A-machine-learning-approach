@@ -1,8 +1,11 @@
+# Raw downloads (NHANES)
 data/raw/
-data/raw/
+
+# Generated outputs
+outputs/
+
+# R / OS noise
 .Rhistory
 .RData
 .Rproj.user/
-*.html
-*.png
-*.docx
+.DS_Store
