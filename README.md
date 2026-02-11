@@ -18,13 +18,8 @@ Figures and tables are saved to the `/outputs` folder.
 
 ## Sessioninfo:
 R version 4.5.2 (2025-10-31)
-Platform: x86_64-pc-linux-gnu
-Running under: Ubuntu 22.04.3 LTS
 
-attached base packages:
-[1] grid      stats     graphics  grDevices utils     datasets  methods   base     
-
-other attached packages:
+## Packages used with version number:
 haven_2.5.5        
 pmsampsize_1.1.3   
 corrplot_0.95      
