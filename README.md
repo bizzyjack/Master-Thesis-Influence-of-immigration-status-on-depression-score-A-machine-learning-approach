@@ -16,7 +16,7 @@ Raw data are not stored in this repository.
 
 Figures and tables are saved to the `/outputs` folder.
 
-Sessioninfo:
+## Sessioninfo:
 R version 4.5.2 (2025-10-31)
 Platform: x86_64-pc-linux-gnu
 Running under: Ubuntu 22.04.3 LTS
