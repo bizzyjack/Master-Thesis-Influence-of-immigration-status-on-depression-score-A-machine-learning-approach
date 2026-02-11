@@ -1,7 +1,20 @@
 # Master-Thesis-Influence-of-immigration-status-on-depression-score-A-machine-learning-approach
 Code used to write the master's thesis: Influence of immigration status on depression score: A machine learning approach
-- Run source("00_install_packages.R") once
-- Then run the analysis scripts
+
+## How to run
+
+1. Open the R project in RStudio
+2. Run `00_install_packages.R` (once)
+3. Run `01_main_analysis.R`
+
+## Data
+
+NHANES 2021 public-use files are automatically downloaded.
+Raw data are not stored in this repository.
+
+## Outputs
+
+Figures and tables are saved to the `/outputs` folder.
 
 Sessioninfo:
 R version 4.5.2 (2025-10-31)
