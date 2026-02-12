@@ -16,6 +16,45 @@ Raw data are not stored in this repository.
 
 Figures and tables are saved to the `/outputs` folder.
 
+## Description of code
+
+# Package and data download
+1. Loads the required packages and data needed for analysis.
+2. Contains reproducibility seed.
+3. Merges based on respondent number.
+
+#Data preparation
+1. Create a clean dataset for easy fallback, while removing variables not used in analysis and filtering out anyone under 18.
+2. Recodes variables so all have additional codes recoded toward missing values for imputations.
+3. Log transformation on income.
+4. MCAR test to view missingness and kNN to impute all missing values.
+5. Merge values back intthe o dataset and create a total PHQ-9 score.
+6. Create a correlation matrix.
+7. Sample size calculation.
+
+#Models
+1. Create bin values for PHQ-9 scores, as it is heavily negatively skewed.
+2. Split the data into training/testing 80/20 proportion and create 10V stratified folds using the bins.
+3. Create RF model.
+4. Create XGBoost model.
+5. Create an LR model. 
+
+#Explainable AI results
+1. Create an additional database for analysis and prep data for analysis.
+2. Create explainer containers.
+3. VIP test.
+
+#Plots and tables to view data results
+1. Demographic table.
+2. Distribution comparison.
+3. Categorical predictors distribution.
+4. Calibration plot.
+5. Residuals vs Predicted plot.
+6. Absolute error distribution plot.
+7. Performance Table.
+8. Fairness Table.
+9. Desity plot. 
+
 ## Sessioninfo:
 R version 4.5.2 (2025-10-31)
 
