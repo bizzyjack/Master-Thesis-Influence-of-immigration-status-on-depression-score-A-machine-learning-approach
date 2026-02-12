@@ -18,7 +18,7 @@ Figures and tables are saved to the `/outputs` folder.
 
 ## Description of code
 
-# Package and data download
+#Package and data download
 1. Loads the required packages and data needed for analysis.
 2. Contains reproducibility seed.
 3. Merges based on respondent number.
