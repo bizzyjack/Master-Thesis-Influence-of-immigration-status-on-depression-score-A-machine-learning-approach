@@ -1,11 +1,26 @@
 # Master-Thesis-Influence-of-immigration-status-on-depression-score-A-machine-learning-approach
 Code used to write the master's thesis: Influence of immigration status on depression score: A machine learning approach
 
+##Title and abstract 
+What is the predictive contribution of immigration status to the PHQ-9 depression scores within a machine learning model that includes sociodemographic variables? 
+
+*dataset + sample (1 sentence)*
+*target/outcome (PHQ-9 binarization) + main model families (1 sentence)*
+*This instantly anchors the repo beyond “code used to write thesis”.*
+
 ## How to run
 
 1. Open the R project in RStudio
 2. Run `00_install_packages.R` (once)
 3. Run `01_main_analysis.R`
+*include expected runtime and expected outputs (“this will create X tables and Y figures in /outputs”)*
+*add a “Troubleshooting” mini-section (common issues: package install errors, download failures, permissions)*
+
+#How to use:
+1. 00_install_packages.R (one-time setup)
+2. 00_load_packages.R (loads packages / helpers)
+3. 01_main_analysis.R (end-to-end pipeline)
+4. /outputs/ (figures + tables)
 
 ## Data
 
