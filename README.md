@@ -13,6 +13,7 @@ Background. Immigrants have been facing a high prevalence of depression compared
 - Dependent variable was scores on the PHQ-9 on a 0-27 scale. 
 - Models used were Linear Regression, Random Forest and XGboost.
 - Expected run time: 28 minutes
+- Expected outputs: 7 figures and 3 tables
 
 
 ## How to run
@@ -20,7 +21,7 @@ Background. Immigrants have been facing a high prevalence of depression compared
 1. Open the R project in RStudio
 2. Run `00_install_packages.R` (once)
 3. Run `01_main_analysis.R`
-*expected outputs (“this will create X tables and Y figures in /outputs”)*
+
 *add a “Troubleshooting” mini-section (common issues: package install errors, download failures, permissions)*
 
 ## How to use:
