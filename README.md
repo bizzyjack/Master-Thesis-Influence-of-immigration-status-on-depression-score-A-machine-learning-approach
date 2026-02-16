@@ -21,7 +21,7 @@ Background. Immigrants have been facing a high prevalence of depression compared
 *include expected runtime and expected outputs (“this will create X tables and Y figures in /outputs”)*
 *add a “Troubleshooting” mini-section (common issues: package install errors, download failures, permissions)*
 
-#How to use:
+# How to use:
 1. 00_install_packages.R (one-time setup)
 2. 00_load_packages.R (loads packages / helpers)
 3. 01_main_analysis.R (end-to-end pipeline)
