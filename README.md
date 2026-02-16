@@ -2,7 +2,11 @@
 Code used to write the master's thesis: Influence of immigration status on depression score: A machine learning approach
 
 ## Title and abstract 
+Title:
 What is the predictive contribution of immigration status to the PHQ-9 depression scores within a machine learning model that includes sociodemographic variables? 
+
+Abstract:
+Background. Immigrants have been facing a high prevalence of depression compared to native-born individuals in different regions. Therefore, this study investigated the predictive value of immigration status for PHQ-9 depression scale scores. Methods. National Health and Nutrition Examination Survey (NHANES) data were used to evaluate the predictive contribution. A Linear Regression (LR), Random Forest (RF) and XGBoost model were used to evaluate predictive performance using 10-fold cross-validation. Results. Models performed modestly in predicting PHQ-9 scores, with an R-squared ranging from 0.13 to 0.14. Immigration status did not make a meaningful contribution to PHQ-9 scores, and general health emerged as the strongest independent variable. Conclusion. In a U.S. sample, immigration status does not appear to be a meaningful predictor of PHQ-9 scores. It was found that the descriptive prevalence does not necessarily translate into individual-level predictive values. This study adds to the current literature by examining the predictive contribution of immigration to PHQ-9 scores using a methodologically rigorous approach. Future research can focus on the relationship between immigration status and depression in predictive modelling. 
 
 # General information
 - The dataset comes from the NHANES wave: August 2021-August 2023 sample contains 8,153 adults.  
