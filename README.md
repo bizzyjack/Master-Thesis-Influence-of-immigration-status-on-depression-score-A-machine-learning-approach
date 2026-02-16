@@ -1,7 +1,7 @@
 # Master-Thesis-Influence-of-immigration-status-on-depression-score-A-machine-learning-approach
 Code used to write the master's thesis: Influence of immigration status on depression score: A machine learning approach
 
-## Title and abstract 
+# Title and abstract 
 Title:
 What is the predictive contribution of immigration status to the PHQ-9 depression scores within a machine learning model that includes sociodemographic variables? 
 
@@ -21,13 +21,13 @@ Background. Immigrants have been facing a high prevalence of depression compared
 *include expected runtime and expected outputs (“this will create X tables and Y figures in /outputs”)*
 *add a “Troubleshooting” mini-section (common issues: package install errors, download failures, permissions)*
 
-# How to use:
+## How to use:
 1. 00_install_packages.R (one-time setup)
 2. 00_load_packages.R (loads packages / helpers)
 3. 01_main_analysis.R (end-to-end pipeline)
 4. /outputs/ (figures + tables)
 
-## Data
+# Data
 
 NHANES 2021 public-use files are automatically downloaded.
 Raw data are not stored in this repository.
@@ -36,7 +36,7 @@ Raw data are not stored in this repository.
 
 Figures and tables are saved to the `/outputs` folder.
 
-## Description of code
+# Description of code
 
 #Package and data download
 1. Loads the required packages and data needed for analysis.
@@ -75,10 +75,10 @@ Figures and tables are saved to the `/outputs` folder.
 8. Fairness Table.
 9. Desity plot. 
 
-## Sessioninfo:
+# Sessioninfo:
 R version 4.5.2 (2025-10-31)
 
-## Packages used with version number:
+# Packages used with version number:
 haven_2.5.5        
 pmsampsize_1.1.3   
 corrplot_0.95      
