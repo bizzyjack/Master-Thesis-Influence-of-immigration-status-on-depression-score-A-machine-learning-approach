@@ -12,13 +12,15 @@ Background. Immigrants have been facing a high prevalence of depression compared
 - The dataset comes from the NHANES wave: August 2021-August 2023 sample contains 8,153 adults.  
 - Dependent variable was scores on the PHQ-9 on a 0-27 scale. 
 - Models used were Linear Regression, Random Forest and XGboost.
+- Expected run time: 28 minutes
+
 
 ## How to run
 
 1. Open the R project in RStudio
 2. Run `00_install_packages.R` (once)
 3. Run `01_main_analysis.R`
-*include expected runtime and expected outputs (“this will create X tables and Y figures in /outputs”)*
+*expected outputs (“this will create X tables and Y figures in /outputs”)*
 *add a “Troubleshooting” mini-section (common issues: package install errors, download failures, permissions)*
 
 ## How to use:
