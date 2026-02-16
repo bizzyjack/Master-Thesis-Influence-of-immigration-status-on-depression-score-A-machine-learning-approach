@@ -4,10 +4,10 @@ Code used to write the master's thesis: Influence of immigration status on depre
 ## Title and abstract 
 What is the predictive contribution of immigration status to the PHQ-9 depression scores within a machine learning model that includes sociodemographic variables? 
 
-
-# The dataset comes from the NHANES wave: August 2021-August 2023 sample contains 8,153 adults.  
-# Dependent variable was scores on the PHQ-9 on a 0-27 scale. 
-# Models used were Linear Regression, Random Forest and XGboost.
+# General information
+- The dataset comes from the NHANES wave: August 2021-August 2023 sample contains 8,153 adults.  
+- Dependent variable was scores on the PHQ-9 on a 0-27 scale. 
+- Models used were Linear Regression, Random Forest and XGboost.
 
 ## How to run
 
