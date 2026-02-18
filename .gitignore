@@ -9,3 +9,7 @@ outputs/
 .RData
 .Rproj.user/
 .DS_Store
+
+# Renv
+renv/library/
+renv/staging/
