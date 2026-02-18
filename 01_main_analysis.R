@@ -944,7 +944,7 @@ cat_vars <- c(
 )
 
 #Container for Numeric predictors + outcome
-num_vars <- c("age", "years_in_US", "income_ratio", "phq9_total"   # outcome)
+num_vars <- c("age", "years_in_US", "income_ratio", "phq9_total")   # outcome
               
               #Create a general APA theme
               apa_theme <- theme_classic(base_size = 12) +
