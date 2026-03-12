@@ -320,6 +320,25 @@ num_vars <- num_vars[, !names(num_vars) %in% c(
 
 cor_matrix <- cor(num_vars, use = "pairwise.complete.obs")
 
+#renaming varaibles
+pretty_names <- c(
+  gender = "Gender",
+  age = "Age",
+  race = "Race",
+  immigrant_status = "Immigrant status",
+  years_in_US = "Years in US",
+  education = "Education",
+  health_insurance = "Health insurance",
+  general_health = "General health",
+  occupation = "Occupation",
+  income_ratio_log = "Income ratio (log)",
+  phq9_total = "PHQ-9 total"
+)
+
+colnames(cor_matrix) <- pretty_names[colnames(cor_matrix)]
+rownames(cor_matrix) <- pretty_names[rownames(cor_matrix)]
+
+
 #View  the correlation matrix
 cor_matrix
 
@@ -331,7 +350,7 @@ cor_matrix[high_corr]
 corrplot(cor_matrix,
          type = "upper",
          tl.col = "black",
-         tl.cex = 0.7)
+         tl.cex = 0.9)
 
 #calculation to see if sample size is large enough for study question
 sd_phq9 <- sd(nhanes_cleaned$phq9_total, na.rm = TRUE)

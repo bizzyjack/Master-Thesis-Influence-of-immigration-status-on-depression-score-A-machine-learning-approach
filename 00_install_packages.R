@@ -2,30 +2,30 @@ pkgs <- c(
   "tidyverse",
   "tidymodels",
   "naniar",
-  "survey",
-  "srvyr",
-  "visdat",
   "ranger",
   "vip",
-  "janitor",
-  "forcats",
   "gtsummary",
+  "srvyr",
+  "janitor",
   "gt",
   "broom",
+  "survey",
+  "smd",
   "VIM",
   "effectsize",
-  "smd",
-  "yardstick",
-  "DALEX",
-  "patchwork",
   "fairmodels",
+  "DALEX",
   "ggrepel",
-  "scales",
   "corrplot",
   "pmsampsize",
-  "haven"
+  "haven",
+  "scales",
+  "forcats"
 )
 
 to_install <- setdiff(pkgs, rownames(installed.packages()))
-if (length(to_install) > 0)
-  install.packages(to_install, dependencies = TRUE)
+
+for (p in to_install) {
+  message("Installing: ", p)
+  try(install.packages(p, dependencies = NA))
+}
